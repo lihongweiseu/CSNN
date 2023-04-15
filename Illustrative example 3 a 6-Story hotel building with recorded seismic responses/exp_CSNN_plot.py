@@ -156,7 +156,7 @@ ax.set_xlabel(r'Time (s)', fontsize=8, labelpad=1)
 ax.set_ylim([-30, 30])
 ax.set_yticks(np.arange(-30, 30.1, 15))
 ax.set_ylabel(r'Acc. ($\rm cm^2$)', fontsize=8, labelpad=1)
-ax.tick_params(direction="in")  # plt.
+ax.tick_params(direction="in")
 plt.grid(lw=0.5)
 ax.set_axisbelow(True)
 
