@@ -1,12 +1,12 @@
 # Codes for the paper "Modeling of forced-vibration systems using continuous-time state-space neural network"
 ---  Coded in the Python environment utilizing the powerful deep learning library PyTorch.
 ## Illustrative example 1 Shear Zener model of viscoelastic dampers
-1. _Zener_Sin_RNN_main.py_ is the main Python file for the quick denmonstration of the RNN model.
+1. _Zener_Sin_RNN_main.py_ is the main Python file for the quick demonstration of the RNN model.
 2. _Zener_CSNN_main.py_ is the main Python file for the SINN model.
-3. _Zener_preparation.m_ is the matlab file to generate the banded limited white noises as input signals.
+3. _Zener_preparation.m_ is the Matlab file to generate the banded limited white noises as input signals.
 4. _Zener_data.mat_ is the generated banded limited white noises.
 5. _Zener_CSNN_2layer1_2state_2neuron1_6000_10s_loss2834em1.pt_ is the trained library of CSNN model, users could load it in _Zener_CSNN_main.py_ to genetate _Zener_CSNN_2layer1_2state_2neuron1.mat_ quickly.
-6. _Zener_CSNN_2layer1_2state_2neuron1.mat_ stores the simualtion results.
+6. _Zener_CSNN_2layer1_2state_2neuron1.mat_ stores the simulation results.
 7. _Zener_CSNN_plot.py_ plots the results.
 
 ## Illustrative example 2 Nonlinear system subjected to acceleration excitation
